@@ -71,6 +71,7 @@ RENT_MENU() {
       INSERT_CUSTOMER_RESULT=$($PSQL "INSERT INTO customers(phone, name) VALUES('$PHONE_NUMBER','$CUSTOMER_NAME') ")
       fi
       # get customer_id
+      CUSTOMER_ID=$($PSQL "SELECT customer_id FROM customers WHERE phone = '$PHONE_NUMBER'")
       # insert bike rental
       # set bike availability to false
       # get bike info
