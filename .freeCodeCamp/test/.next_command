@@ -229,3 +229,4 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')
 $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')
 echo $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')
+./bike-shop.sh
