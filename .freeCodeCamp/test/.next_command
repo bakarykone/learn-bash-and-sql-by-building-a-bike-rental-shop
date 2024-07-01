@@ -232,3 +232,4 @@ echo $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
